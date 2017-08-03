@@ -19,3 +19,7 @@ git status
 
 List remote repositories
 git remote -v
+
+Change button to float right
+class = pull-right
+use col class?
