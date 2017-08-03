@@ -1,0 +1,21 @@
+Git Help File
+
+Create a folder on localhost:
+git clone https://github.com/davidzepernick/Project1.git
+
+Checkout code from a branch:
+git checkout feature1
+
+Pull the latest code into local repository:
+git pull
+
+Push code to remote repository:
+git add .
+git commit -m "message"
+git push
+
+Check status a your local repository:
+git status
+
+List remote repositories
+git remote -v
