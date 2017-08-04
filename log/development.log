@@ -6763,3 +6763,21 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 384ms (Views: 357.7ms | ActiveRecord: 1.0ms)
 
 
+Started GET "/articles" for 127.0.0.1 at 2017-08-03 23:21:37 -0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (7.5ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 416ms (Views: 398.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-08-03 23:35:09 -0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (4.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (10.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 428ms (Views: 408.2ms | ActiveRecord: 4.0ms)
+
+

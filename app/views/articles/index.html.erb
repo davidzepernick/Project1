@@ -2,15 +2,15 @@
   <!-- Default panel contents -->
   <div class="panel-heading">List of Articles</div>
   <div class="panel-body">
-  <div class="row">
-    <div class="col-lg-6 col-md-6">This is a current list of existing articles</div>
-    <div class="col-lg-6 col-md-6 text-right">
-        <div class="visible-lg-inline-block visible-md-block visible-sm-block visible-xs-block">
-            <a class="btn btn-primary" href="/articles/new" role="button">New Article</a>
-        </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6">This is a current list of existing articles</div>
+      <div class="col-lg-6 col-md-6 text-right">
+          <div class="visible-lg-inline-block visible-md-block visible-sm-block visible-xs-block">
+              <a class="btn btn-primary" href="/articles/new" role="button">New Article</a>
+          </div>
+      </div>
     </div>
-    </div>
-</div>
+  </div>
   <div class="well well-lg">
   <!-- Table -->
   <table class="table">
@@ -19,7 +19,7 @@
     <th>Text</th>
     <th colspan="3"></th>
   </tr>
- 
+
   <% @articles.each do |article| %>
     <tr>
       <td><%= article.title %></td>
