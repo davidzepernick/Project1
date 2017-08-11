@@ -8507,3 +8507,48 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 4749ms (Views: 4583.6ms | ActiveRecord: 3.0ms)
 
 
+Started GET "/articles" for 127.0.0.1 at 2017-08-11 13:10:57 -0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 5364ms (Views: 5175.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-08-11 13:12:33 -0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (5.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 4787ms (Views: 4594.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-08-11 13:13:24 -0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 6150ms (Views: 5967.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-08-11 13:14:59 -0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (8.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 4858ms (Views: 4654.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-08-11 13:36:52 -0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+Completed 200 OK in 35697ms (Views: 35521.5ms | ActiveRecord: 1.0ms)
+
+
